@@ -1,7 +1,7 @@
 [workspace]
 members = [
     'node',
-	'libsecp256k1-dev',
+	'libsecp256k1',
     'pallets/template',
     'runtime',
 ]
