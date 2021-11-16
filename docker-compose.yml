@@ -6,7 +6,7 @@ services:
     image: paritytech/ci-linux:974ba3ac-20201006
     working_dir: /var/www/node-template
     ports:
-      - "3000:3000"
+      - "9944:9944"
     environment:
       - CARGO_HOME=/var/www/node-template/.cargo
     volumes:
